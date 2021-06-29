@@ -1,7 +1,7 @@
-# Mutational antigenic profiling of SARS-CoV-2 RBD
+# Mutational antigenic profiling of SARS-CoV-2 RBD minibinders
 Analysis of mutational antigenic profiling of SARS-CoV-2 minibinder inhibitors designed by the IPD
 
-Experiments and by Tyler Starr, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
+Experiments and analysis by Tyler Starr, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
 
 For broader context, see the preprint [here]().
 
