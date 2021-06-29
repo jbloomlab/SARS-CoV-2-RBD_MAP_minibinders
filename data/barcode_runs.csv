@@ -1,0 +1,11 @@
+library,sample,date,experiment,antibody,concentration,concentration_units,group,selection,frac_escape,cells_sorted,R1
+lib1,expt_131-132-none-0-reference,210618,expt_131-132,none,0,ng_per_mL,Baker,reference,,,/shared/ngs/illumina/tstarr/210624_D00300_1264_AHLNMWBCX3/Unaligned/Project_tstarr/expt131-132_lib1_ref*.fastq.gz
+lib2,expt_131-132-none-0-reference,210618,expt_131-132,none,0,ng_per_mL,Baker,reference,,,/shared/ngs/illumina/tstarr/210624_D00300_1264_AHLNMWBCX3/Unaligned/Project_tstarr/expt131-132_lib2_ref*.fastq.gz
+lib1,expt_82-86-none-0-reference,210115,expt_82-86,none,0,ng_per_mL,Baker+LY,reference,,,/shared/ngs/illumina/tstarr/210119_D00300_1157_AHK3HNBCX3/Unaligned/Project_tstarr/expt_82-86_lib1_ref*.fastq.gz
+lib2,expt_82-86-none-0-reference,210115,expt_82-86,none,0,ng_per_mL,Baker+LY,reference,,,/shared/ngs/illumina/tstarr/210119_D00300_1157_AHK3HNBCX3/Unaligned/Project_tstarr/expt_82-86_lib2_ref*.fastq.gz
+lib1,expt_132-AHB2-9-escape,210618,expt_132,AHB2,9,ng_per_mL,Baker,escape,0.12300000000000001,1301648.0,/shared/ngs/illumina/tstarr/210624_D00300_1264_AHLNMWBCX3/Unaligned/Project_tstarr/expt132_lib1_Abneg*.fastq.gz
+lib2,expt_132-AHB2-9-escape,210618,expt_132,AHB2,9,ng_per_mL,Baker,escape,0.12,1330108.0,/shared/ngs/illumina/tstarr/210624_D00300_1264_AHLNMWBCX3/Unaligned/Project_tstarr/expt132_lib2_Abneg*.fastq.gz
+lib1,expt_84-LCB1_v2.2-400-escape,210115,expt_84,LCB1_v2.2,400,ng_per_mL,Baker,escape,0.08900000000000001,971158.0,/shared/ngs/illumina/tstarr/210119_D00300_1157_AHK3HNBCX3/Unaligned/Project_tstarr/expt_84_lib1_Abneg_S89_R1_001.fastq.gz
+lib2,expt_84-LCB1_v2.2-400-escape,210115,expt_84,LCB1_v2.2,400,ng_per_mL,Baker,escape,0.096,1041736.0,/shared/ngs/illumina/tstarr/210119_D00300_1157_AHK3HNBCX3/Unaligned/Project_tstarr/expt_84_lib2_Abneg_S90_R1_001.fastq.gz
+lib1,expt_131-LCB1_v2.2-9-escape,210618,expt_131,LCB1_v2.2,9,ng_per_mL,Baker,escape,0.083,902912.0,/shared/ngs/illumina/tstarr/210624_D00300_1264_AHLNMWBCX3/Unaligned/Project_tstarr/expt131_lib1_Abneg*.fastq.gz
+lib2,expt_131-LCB1_v2.2-9-escape,210618,expt_131,LCB1_v2.2,9,ng_per_mL,Baker,escape,0.076,900790.0,/shared/ngs/illumina/tstarr/210624_D00300_1264_AHLNMWBCX3/Unaligned/Project_tstarr/expt131_lib2_Abneg*.fastq.gz
