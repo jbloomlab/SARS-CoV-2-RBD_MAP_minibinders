@@ -1,7 +1,9 @@
 # Mutational antigenic profiling of SARS-CoV-2 RBD
-Analysis of mutational antigenic profiling of barcoded codon variants of SARS-CoV-2 RBD.
+Analysis of mutational antigenic profiling of SARS-CoV-2 minibinder inhibitors designed by the IPD
 
-Study and analysis by Allie Greaney, Tyler Starr, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
+Experiments and by Tyler Starr, [Jesse Bloom](https://research.fhcrc.org/bloom/en.html), and co-authors.
+
+For broader context, see the preprint [here]().
 
 ## Summary of workflow and results
 For a summary of the workflow and links to key results files, [click here](results/summary/summary.md).
@@ -61,10 +63,8 @@ You should modify the analysis by changing this configuration file; do **not** h
 In general:
  - add new samples to [data/barcode_runs.csv](data/barcode_runs.csv)
  - specify new combinations of samples for escape-profile plotting via [data/escape_profiles_config.yaml](data/escape_profiles_config.yaml)
- - specify combinations of samles for multi-dimensional scaling via [data/mds_config.yaml](mds_config.yaml)
  - to output structural mappings, add information to [data/output_pdbs_config.yaml](data/output_pdbs_config.yaml) about which conditions should be mapped to which PDBs, and add information to [data/structural_annotation_config.yaml](data/structural_annotation_config.yaml) about which chains to analyze for defining structural contacts between RBD and antibody or other ligands.
  - to write supplementary data and `dms_view` input data, set the `make_supp_data` flag in [data/escape_profiles_config.yaml](data/escape_profiles_config.yaml) to `true` and `dms_view` input files will be written to [results/supp_data](results/supp_data) for the condition sets with `make_supp_data` as `true` for those conditions with PDB mappings in [data/output_pdbs_config.yaml](data/output_pdbs_config.yaml).
- - to update the GISAID sequence set used to look at natural mutations, update the file pointed to by `gisaid_spikes` in [config.yaml](config.yaml) as described in [data/README.md](data/README.md).
  - to plot information about viral escape selections, add them to [data/escape_selection_results.yaml](data/escape_selection_results.yaml).
 
 ## Cluster configuration
@@ -108,8 +108,3 @@ The last three commands can be done by the following commands:
     conda activate SARS-CoV-2-RBD_MAP
     conda env export > environment.yml
 
-## Creating "subset" repos and uploading data to the SRA
-Currently this repo contains analyses of many antibodies and sera, and should remain public since collaborators do not want all of these data to be public.
-
-For papers, you can make a public "subset" repo by following the instructions in [./subset_data/](subset_data).
-After making a subset repo, you can upload sequencing data to the Sequence Read Archive (SRA) following the instructions in [./SRA_upload/](SRA_upload).
